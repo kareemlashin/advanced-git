@@ -1,0 +1,34 @@
+git config
+
+git init	
+
+git clone ssh://git@github.com/[username]/[repository-name].git	
+
+git status	
+This command lists all the files that have to be committed.
+This command returns the current state of the repository.
+
+
+git rm -r [file-name.txt]	
+
+git branch	
+
+git branch [branch name]	
+
+git checkout [branch name]	
+
+git merge [branch name]	
+
+git stash	
+This command temporarily stores all the modified tracked files.
+To save changes made when they’re not in a state to commit them to a repository. 
+This will store the work and give a clean working directory.
+For instance, when working on a new feature that’s not complete, but an urgent bug needs attention.
+
+
+git diff
+This command shows the file differences which are not yet staged.
+
+git reset [file]
+This command unstages the file, but it preserves the file contents.
+
