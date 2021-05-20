@@ -7,6 +7,8 @@ git clone ssh://git@github.com/[username]/[repository-name].git
 git status	
 This command lists all the files that have to be committed.
 This command returns the current state of the repository.
+The Git status command gives us all the necessary information about the current branch. 
+List the files you've changed and those you still need to add or commit:	
 
 
 git rm -r [file-name.txt]	
